@@ -1,0 +1,255 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto&display=swap');
+
+/*span {*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
+
+strong {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875vw;
+    font-weight: bold;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9375vw;
+}
+
+.helloThere p {
+    margin-top: -1vw;
+    margin-bottom: 5vw;
+}
+
+.title {
+    margin-top: 4%;
+}
+
+.title img {
+    width: 100%;
+}
+
+.menu {
+    padding-left: 318px;
+    padding-right: 318px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #0E0E0E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7%;
+    z-index:100;
+}
+
+.navbar a {
+    float: left;
+    align-items: center;
+    justify-items: center;
+    display: block;
+    color: #f2f2f2;
+    /*text-align: center;*/
+    padding: 1vw 1.5vw;
+    text-decoration: none;
+    font-size: 1.25vw;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar a:hover {
+    color: black;
+    background-image: url("imgs/YellowBrut1.png");
+    font-weight: bold;
+}
+
+.dropdown:hover .droplets {
+    display: grid;
+}
+
+.dropdown {
+    z-index: 1000000000;
+    margin-top: -30px;
+    position: fixed;
+    margin-left: 990px;
+    margin-right: 400px;
+
+}
+
+#trigger {
+    color: #f2f2f2;
+    font-size: 1.25vw;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+
+    background-color: #0E0E0E;
+}
+
+.droplets {
+
+    display: none;
+    grid-template-columns: 450px;
+    color: #f2f2f2;
+
+    margin-top: 10px;
+    margin-left: -12px;
+
+
+    background-color: #0E0E0E;
+}
+
+.droplets a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 1.25vw;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.droplets a:hover {
+    color: black;
+    background-image: url("imgs/YellowBrut1.png");
+    font-weight: bold;
+}
+
+.title span {
+
+    position: relative;
+    /*width: 567px;*/
+    /*height: 157px;*/
+    left: 0;
+    top: -8.4vw;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7.5vw;
+    white-space: nowrap;
+
+    color: #0E0E0E;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #EEEEEE;
+
+    background-image:
+    url("imgs/tigerBrut 1.png"),
+    url("imgs/tigerBrut 2.png");
+
+    background-position:
+            top right,
+            top left;
+    background-repeat: repeat-y;
+}
+
+.content {
+    margin-left: 318px;
+    margin-right: 318px;
+}
+
+.textZone {
+    margin-top:-13%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.who {
+    display: grid;
+    grid-template-columns: 47% 6% 47%;
+    margin-bottom: 50px;
+}
+
+#pic1 {
+    position: absolute;
+    left: 975px;
+    top: 1030px;
+}
+
+#fg1 {
+    width: 519px;
+    height: 318px;
+}
+
+#bg1 {
+    position: relative;
+    z-index: -10;
+    top: -300px;
+    width: 519px;
+    height: 318px;
+    left: 20px;
+}
+#bg2 {
+    position: relative;
+    z-index: -20;
+    top: -600px;
+    width: 519px;
+    height: 318px;
+    left: 40px;
+}
+
+.likes {
+    display: grid;
+    grid-template-columns: 47% 6% 47%;
+}
+
+#text2 {
+    grid-column: 3;
+}
+
+#pic2 {
+    position: absolute;
+    width: 519px;
+    height: 318px;
+    left: 414px;
+    top: 1450px;
+}
+
+#fg2 {
+    width: 519px;
+    height: 318px;
+}
+
+#bg3 {
+    position: relative;
+    z-index: -10;
+    top: -300px;
+    width: 519px;
+    height: 318px;
+    left: -20px;
+}
+#bg4 {
+    position: relative;
+    z-index: -20;
+    top: -600px;
+    width: 519px;
+    height: 318px;
+    left: -40px;
+}
+
+.humor {
+    font-size: 24px;
+    margin-top: 9vw;
+    font-weight: normal;
+}
+.videos {
+    margin-top: 5vw;
+}
+.vidGrid {
+    margin-top: 2vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    margin-bottom: 10vw;
+}
+

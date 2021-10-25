@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="17febc84-68b8-4674-8f04-d4602db3dded" name="ButterCanFly">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="128.199.152.250" port="22" sshConfigId="b8e554bb-9121-4850-ae4e-765b2b00995f" sshConfig="root@128.199.152.250:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
