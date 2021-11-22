@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto&display=swap');
+
+strong {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #f2f2f2;
+    padding-left: 30px;
+}
+p, label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #f2f2f2;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-custom {
+    background-color: #0E0E0E;
+}
+
+.btn {
+    font-size: 24px;
+    width: 200px;
+    height: 75px;
+}
+.col-md-12 {
+    text-align: center;
+    background-color: #252525;
+}
+
+/*#gallery-grid {*/
+/*    display: flex;*/
+/*    flex-flow: row wrap;*/
+/*    flex-grow: 0;*/
+/*}*/
+
+img {
+    padding: 20px;
+    /*max-width: 400px;*/
+
+    max-height: 650px;
+    max-width: 650px;
+}
+
+body {
+    background-image: url("../imgs/tigerLong.png");
+    margin: 0;
+    padding: 0;
+}
+
