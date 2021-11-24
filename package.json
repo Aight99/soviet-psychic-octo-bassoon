@@ -1,0 +1,24 @@
+{
+  "name": "15tags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAiTgod/soviet-psychic-octo-bassoon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheAiTgod/soviet-psychic-octo-bassoon/issues"
+  },
+  "homepage": "https://github.com/TheAiTgod/soviet-psychic-octo-bassoon#readme",
+  "dependencies": {
+    "is-number": "^7.0.0",
+    "uuid": "^8.3.2"
+  }
+}
